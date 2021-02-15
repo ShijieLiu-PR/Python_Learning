@@ -7,3 +7,13 @@ if item + 1 == num01:
     print("Yes")
 else:
     print("No")
+
+
+count = 0
+while count < 10:
+    print(count)
+    count += 1
+    if count > 8:
+        break
+else:
+    print("Done")
